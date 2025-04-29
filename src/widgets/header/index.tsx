@@ -9,7 +9,7 @@ const Header = () => {
 	return (
 		<header
 			className={cn(
-				"mx-auto flex items-center justify-between p-1 sm:p-2 border rounded-[14px] sm:rounded-[20px] w-full max-w-[326px] px-4 sm:max-w-[526px]",
+				"mx-auto flex items-center justify-between p-1 sm:p-2 border rounded-[14px] sm:rounded-[20px] w-full max-w-[326px] sm:max-w-[526px]",
 				s.Header
 			)}
 		>
