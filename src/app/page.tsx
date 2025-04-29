@@ -8,7 +8,7 @@ import Image from "next/image"
 export default function Home() {
 	return (
 		<>
-			<Section className='flex flex-col gap-y-6'>
+			<Section className='flex flex-col gap-y-7 sm:gap-y-6'>
 				<div className='flex flex-col gap-y-4'>
 					<div className='relative rounded-full size-14 sm:size-24 overflow-hidden'>
 						<Image className='object-cover' src='/me.jpg' alt='Damir' fill />
@@ -17,7 +17,7 @@ export default function Home() {
 						I&apos;ll turn your 2007-looking website into something... <span className='font-lora'>sleek</span>
 					</Heading>
 				</div>
-				<div className='flex flex-col gap-y-4 max-w-[492px]'>
+				<div className='flex flex-col gap-y-3 sm:gap-y-4 max-w-[260px] sm:max-w-[492px]'>
 					<Availability />
 					<Button>Yes, I need it</Button>
 				</div>

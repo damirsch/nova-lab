@@ -27,7 +27,7 @@ const Button = (props: ButtonOrLinkProps) => {
 
 	const classNames = cn(
 		size === "normal"
-			? "py-4 sm:py-6 px-6 sm:px-10 text-lg sm:text-2xl rounded-2xl sm:rounded-[20px]"
+			? "py-4 sm:py-6 px-6 sm:px-10 text-base sm:text-2xl rounded-2xl sm:rounded-[20px]"
 			: "text-xs sm:text-lg rounded-xl sm:rounded-2xl py-3 sm:py-4 px-4 sm:px-6",
 		"flex items-center font-medium justify-center leading-none sm:leading-none",
 		variant === "primary" ? "bg-primary text-white" : "bg-white border",

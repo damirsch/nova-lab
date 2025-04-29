@@ -31,7 +31,7 @@ export default function RootLayout({
 			<body className={`${geistSans.className} ${lora.variable} antialiased`}>
 				<ProgressBarProvider>
 					<div className='px-2 w-full'>
-						<div className='flex flex-col gap-y-24 sm:gap-y-36 bg-background mx-auto pt-8 border-r border-l max-w-[800px] xl:max-w-[1100px] overflow-hidden'>
+						<div className='flex flex-col gap-y-24 sm:gap-y-36 bg-background mx-auto pt-32 sm:pt-52 border-r border-l max-w-[800px] xl:max-w-[1100px] overflow-hidden'>
 							<Header />
 							{children}
 						</div>
