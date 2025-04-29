@@ -29,7 +29,7 @@ const Button = (props: ButtonOrLinkProps) => {
 		size === "normal"
 			? "py-4 sm:py-6 px-6 sm:px-10 text-lg sm:text-2xl rounded-2xl sm:rounded-[20px]"
 			: "text-lg rounded-2xl py-4 px-6",
-		"flex items-center justify-center leading-none sm:leading-none",
+		"flex items-center font-semibold justify-center leading-none sm:leading-none",
 		variant === "primary" ? "bg-primary text-white" : "bg-white border",
 		s.Button,
 		s[variant],
