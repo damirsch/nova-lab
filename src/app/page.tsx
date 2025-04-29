@@ -10,7 +10,7 @@ export default function Home() {
 		<>
 			<Section className='flex flex-col gap-y-6'>
 				<div className='flex flex-col gap-y-4'>
-					<div className='relative rounded-full size-24 overflow-hidden'>
+					<div className='relative rounded-full size-14 sm:size-24 overflow-hidden'>
 						<Image className='object-cover' src='/me.jpg' alt='Damir' fill />
 					</div>
 					<Heading>

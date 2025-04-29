@@ -2,7 +2,7 @@ const Availability = () => {
 	return (
 		<div className='flex items-center gap-x-2 text-accent text-base sm:text-2xl'>
 			<div className='flex justify-center items-center rounded-full size-5 bg-accent-20'>
-				<div className='bg-accent rounded-full size-2.5'></div>
+				<div className='bg-accent rounded-full min-w-2.5 size-2.5'></div>
 			</div>
 			<p className='font-medium leading-none tracking-[-0.01em]'>Available for new projects</p>
 		</div>
