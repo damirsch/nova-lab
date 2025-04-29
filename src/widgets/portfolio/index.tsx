@@ -20,11 +20,11 @@ const Portfolio = () => {
 							<Image className='object-cover' src='/portfolio/Cuckoo.png' fill alt='Cuckoo' />
 							<button
 								className={cn(
-									"size-11 flex items-center justify-center absolute bottom-5 rounded-full right-5 bg-[#000000B2]",
+									"size-8 sm:size-11 flex items-center justify-center absolute bottom-3 sm:bottom-5 rounded-full right-3 sm:right-5 bg-[#000000B2]",
 									s.Btn
 								)}
 							>
-								<Plus />
+								<Plus className='size-5 sm:size-6' />
 							</button>
 						</div>
 					</CarouselItem>

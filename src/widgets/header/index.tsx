@@ -22,7 +22,7 @@ const Header = () => {
 				>
 					<Logo className='size-4 sm:size-6' />
 				</div>
-				<ul className='flex gap-x-3 sm:gap-x-5 text-xs sm:text-lg tracking-[-0.01em]'>
+				<ul className='flex gap-x-3 sm:gap-x-5 text-xs 2xs:text-sm sm:text-lg tracking-[-0.01em]'>
 					<li>
 						<Link href='#work'>Work</Link>
 					</li>

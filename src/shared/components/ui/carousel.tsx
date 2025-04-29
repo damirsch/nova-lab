@@ -171,11 +171,11 @@ const CarouselPrevious = React.forwardRef<HTMLButtonElement>((_, ref) => {
 		<button
 			ref={ref}
 			style={{ borderColor: "var(--border-secondary)" }}
-			className='flex justify-center items-center border rounded-full size-14'
+			className='flex justify-center items-center border rounded-full size-11 sm:size-14'
 			disabled={!canScrollPrev}
 			onClick={scrollPrev}
 		>
-			<ArrowLeft />
+			<ArrowLeft className='size-5 sm:size-7' />
 		</button>
 	)
 })
@@ -188,11 +188,11 @@ const CarouselNext = React.forwardRef<HTMLButtonElement>((_, ref) => {
 		<button
 			ref={ref}
 			style={{ borderColor: "var(--border-secondary)" }}
-			className='flex justify-center items-center border rounded-full size-14'
+			className='flex justify-center items-center border rounded-full size-11 sm:size-14'
 			disabled={!canScrollNext}
 			onClick={scrollNext}
 		>
-			<ArrowLeft className='rotate-180' />
+			<ArrowLeft className='size-5 sm:size-7 rotate-180' />
 		</button>
 	)
 })

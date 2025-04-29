@@ -1,0 +1,12 @@
+.Circle{
+  animation: pulse 1.5s linear infinite;
+}
+
+@keyframes pulse {
+  0%, 100%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.18);
+  }
+}
